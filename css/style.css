@@ -1,0 +1,168 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: rgb(136, 129, 144);
+    opacity: 2;
+}
+
+
+
+/* navbar style */
+nav{
+    background-color: rgb(135, 135, 168);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.navbar-brand{
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+}
+.navbar-brand:hover{
+    color: rgb(41, 28, 51) !important;
+}
+.navbar-nav{
+    margin: auto;
+}
+.active1{
+    color:rgb(28, 17, 45);
+}
+.nav-link:hover{
+    color: rgb(46, 27, 64) !important;
+}
+.active{
+    color: rgb(39, 20, 56) !important;
+}
+/* Navbar style end */
+
+/* Offcanvas section */
+.offcanvas.show:not(.hiding), .offcanvas.showing {
+    transform: none;
+    width: 250px;
+}
+/* Offcanvas section end */
+
+
+
+
+/* Myinfo section start */
+.container.myinfo {
+    /* padding: 203px 0px 0px 262px; */
+    padding-left: 240px;
+}
+.btn:hover{
+    background-color: rgb(113, 81, 168);
+    color: rgb(104, 76, 150);
+}
+.myname{
+    font-size: xxx-large;
+}
+/* Myinfo section end */
+
+
+
+/* resume button */
+.btn{
+    /* margin: 4%; */
+    margin: 25px 75px 0px 75px;
+    color: white;
+    background-color: rgb(84, 52, 113);
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2)
+}
+/* My name and discription section  ends*/
+
+
+
+
+/* White baground */
+.maindiv{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+/* White baground end */
+
+
+
+/* Project section starts */
+.projectbaground{
+    background-color: rgb(227, 214, 250);
+}
+.projecttitle{
+    color: rgb(52, 28, 74);
+}
+.card-title{
+    color: rgb(62, 35, 86);
+}
+/* Project section ends */
+
+
+
+/* Contact form section */
+.contactform{
+    width: 35rem;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+form{
+    width: 350px;
+}
+/* Contact form section end */
+
+
+
+
+@media screen and (max-width: 991px) {
+    .myinfo {
+        padding-left: 60px !important;
+    }
+    
+}
+
+@media screen and (max-width: 768px) {
+    .text-white {
+        --bs-text-opacity: 1;
+        /* color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important; */
+        color: rgb(55, 32, 76) !important;
+    }
+    .btn.forms {
+        margin: 0px 0px 20px 0px !important;
+        margin-bottom: 2rem;
+        color: white;
+        background-color: rgb(52, 32, 71);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .contactform {
+        width: unset;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    }
+    .d-flex {
+        display: flex !important;
+        flex-direction: column;
+        align-items: center;
+    }
+    .container.d-flex.flex-row-reverse.mt-4.herosection.px-0 {
+        flex-direction: column !important;
+    }
+    .container.profilepicture.mt-0.px-0.d-flex.justify-content-end.p {
+        justify-content: end !important;
+        align-items: unset;
+        /* background-color: rgb(195, 170, 239); */
+    }
+    .myinfo {
+        padding-left: unset !important;
+    }
+    .btn {
+        margin: 25px 75px 15px 75px;
+        color: white;
+        background-color: rgb(62, 38, 84);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    }
+    .myname {
+        font-size: xxx-large;
+        padding-left: 15px;
+    }
+    .fw-bold.namedis {
+        padding-left: 15px;
+    }
+
+    form {
+        width: unset !important;
+    }
+}
+

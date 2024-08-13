@@ -1,0 +1,169 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Navbar start -->
+  <nav class="navbar navbar-expand-md sticky-top bg-body-primary">
+    <div class="container">
+      <a class="navbar-brand" href="#"><img class="px-1" decoding="async" src="images/nav icon/portfolio-my-profile-browser-svgrepo-com.svg" alt="icon"><b>Portfolio</b></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas" aria-controls="offcanvas" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas" aria-labelledby="offcanvasLabel">
+        <div class="offcanvas-header">
+          <h5 class="offcanvas-title" id="offcanvasLabel"><img class="px-1" decoding="async" src="images/nav icon/portfolio-my-profile-browser-svgrepo-com.svg" alt="icon">Portfolio</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <ul class="navbar-nav flex-grow-1 justify-content-center">
+            <li class="nav-item px-2"><a class="nav-link text-white active" href="#">Home</a></li>
+            <li class="nav-item px-2"><a class="nav-link text-white" href="#project-title">Projects</a></li>
+            <li class="nav-item px-2"><a class="nav-link text-white" href="#my-skills">Skills</a></li>
+            <li class="nav-item px-2"><a class="nav-link text-white" href="#contactme">Contact me</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </nav>
+  <!-- Navbar end -->
+
+
+  <div class="container maindiv bg-white p-0">
+
+    <!-- Profile section start -->
+    <div class="container d-flex flex-row-reverse mt-4 herosection px-0">
+
+      <div class="container profilepicture mt-0 px-0 d-flex justify-content-end p">
+        <img src="images/profile picture.png" alt="" class="profile img-fluid">
+      </div>
+
+      <div class="container myinfo d-flex flex-column justify-content-center">
+        <div class="myname fw-bold">
+          Hello,<br> I'm
+          <p style="color: blueviolet; display: inline;">Ayush Shirsath</p>
+        </div>
+        <div class="fw-bold namedis">
+          Full stack Developer<br>
+          I will create a web design that can give value to your company
+        </div>
+        <button type="button" id="downloadResume" class="btn">Get My Resume</button>
+      </div>
+
+    </div>
+    <!-- Profile section end -->
+
+
+    <!-- Project section -->
+    <div class="projectbaground p-4" id="project-title">
+      <div class="projecttitle fs-2 fw-semibold mx-4">
+        My Projects
+      </div><br>
+      <div class="projectsection container d-flex justify-content-evenly">
+
+        <div class="card mb-4" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">i-society Management System</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Java is used</h6>
+            <p class="card-text">A society management system refers to a software application or platform designed to
+              streamline and automate various administrative tasks and operations within a
+              residential or housing society. The goal is to enhance efficiency, communication, and
+              transparency in the management of the society. Programming language – Java, Sql,
+              Html , CSS, JavaScript. </p>
+           <!--<a href="https://github.com/P-wagh/Reflectance_Spectrophotometer_Spectrum_Analyzer_with_Deep_Learning" class="card-link">Project info</a>--> 
+          </div>
+        </div>
+
+        <div class="card mb-4" style="width: 18rem;">
+          <div class="card-body">
+            <h5 class="card-title">Travel Planner System</h5>
+            <h6 class="card-subtitle mb-2 text-body-secondary">Java is used</h6>
+            <p class="card-text">This comprehensive platform is designed to provide users with a seamless and intuitive experience in planning and managing their travel itineraries. </p>
+             <a href="https://github.com/P-wagh/travel-planner" class="card-link">Project info</a> 
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <!-- Skills section -->
+    <div class="skilltitle my-4 projecttitle fs-2 fw-semibold mx-4"  id="my-skills">
+      My Skills
+    </div>
+    <div class="d-flex flex-column justify-content-evenly">
+      <div class="d-flex justify-content-evenly">
+        <div class="html my-4 mx-5">
+          <img class="" decoding="async" src="images/skills/html.svg">
+        </div>
+        <div class="css mx-5 my-4">
+          <img class="" decoding="async" src="images/skills/css.svg" alt="">
+        </div>
+        <div class="javascrip mx-5 my-4">
+          <img calss="" decoding="async" src="images/skills/js.svg" alt="">
+        </div>
+      </div>
+
+      <div class="d-flex justify-content-evenly">
+        <div class="python mx-5 my-4">
+          <img calss="" decoding="async" src="images/skills/python-4.svg" alt="">
+        </div>
+        <div class="java mx-5 my-4">
+          <img class="" decoding="async" src="images/skills/java-4-logo.svg">
+        </div>
+      </div>
+    </div>
+    <!-- End of Skill section -->
+
+    <!-- Cantact section -->
+    <div class="projectbaground p-4" id="contactme">
+      <div class="projecttitle fs-2 fw-semibold">
+        Contact Me
+      </div>
+      <div class="contactform container d-flex justify-content-center mb-3">
+        <form action="https://api.web3forms.com/submit" method="POST">
+
+          <input type="hidden" name="access_key" value="924b5bbe-a964-4181-98b8-f4458646bc16">
+
+          <div class="mb-3 mt-3">
+            <label for="nameInput" class="form-label">Name</label>
+            <input type="text" name="nameUser" class="form-control" id="nameInput" placeholder="Your name">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Your Email address</label>
+            <input type="email" name="emailUser" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          </div>
+          <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Textarea</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Your massage"></textarea>
+          </div>
+          <button type="submit" class="btn forms mb-3">Submit</button>
+        </form>
+      </div>
+    </div>
+    <!-- End of Contact section -->
+
+
+
+
+  </div>
+  <div class="my-4">
+    <footer class="mt-auto text-white d-flex justify-content-center">
+      <p>2024 &copy; <a href="#" class="text-white">Portfolio</a>, by Ayush Shirsath<a href="https://twitter.com/mdo"
+          class="text-white"></a>.</p>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
